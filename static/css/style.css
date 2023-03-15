@@ -1,0 +1,57 @@
+
+#isma-logo {
+    max-width:100px;
+    max-height: 100px;
+    width:40%;
+    height:20%;
+}
+
+a {
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    color:rgb(209, 154, 255);
+}
+
+#contact {
+    align-items: center;
+    color:rgb(255, 255, 255);
+}
+
+.card-body { 
+    
+    background-color: rgba(106, 185, 230, 0.534); 
+
+}
+
+#card-home {
+
+    max-width: 800px;
+    max-height: 1200px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    color:rgb(0, 0, 0);
+}
+
+
+.bi-linkedin,
+.bi-github,
+.bi-envelope {
+
+    background: -webkit-linear-gradient(#2ea1ff, #fffbfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px; 
+    transition: all 0.2s ease-in-out; 
+}
+
