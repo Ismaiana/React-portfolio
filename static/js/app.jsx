@@ -9,9 +9,6 @@ function App() {
         <ReactRouterDOM.Route exact path="/projects">
           <Projects />
         </ReactRouterDOM.Route>
-        <ReactRouterDOM.Route exact path="/resume">
-          <Resume />
-        </ReactRouterDOM.Route>
         </div>
     </ReactRouterDOM.BrowserRouter>
     

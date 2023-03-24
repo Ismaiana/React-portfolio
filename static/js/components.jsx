@@ -1,32 +1,89 @@
 function Homepage(props) {
-    return (
-      <div className="row">
-        <div className="col">
-          <div className="card" id="card-home">
-          <div className="card-body">
-            <h1 className="my-name text-center">Ismaiana Lima</h1>
-             <h3 className="swe text-center">Software Engineer</h3>
-              <p>
-              Hello,<br />
-              <br />
-              I'm Isma a software engineer originally from Brazil living in US.
-              I'm passionate about building interactive, user-friendly software that solves real-world problems.<br />
-              <br />
-              I have skills in a variety of programming languages, including JavaScript, Python, SQL, HTML/CSS, Bootstrap and more. I'm also experienced in a range of 
-              front-end frameworks, such as React and Jinja, as well as back-end frameworks like Flask.<br />
-              <br />
-              In my portfolio, you'll find examples of my work, including web applications I take pride in my attention to detail and my ability to create software that is both functional
-              and aesthetically pleasing.<br />
-              <br />
-              Thanks for taking the time to visit my portfolio, and I hope you enjoy exploring my projects!
-            </p> 
+  return (
+    <div className="row">
+      <div className="col">
+        <div className="card" id="card-home">
+          <div className="row">
+            <div className="col-md-4">
+              <img src="static/img/profile-pic.jpeg" alt="isma" width="600px" height="920px" id="profile-pic"/>
+            </div>
+            <div className="col-md-8">
+              <div className="card-body" id="card-home-body">
+                <h1 className="my-name"><p id="im">I'm</p> Ismaiana Lima</h1>
+                <h3 className="swe">Software Engineer</h3>
+                <div className="row">
+                <div className="col-md-7">
+                  <div id="text-about">
+                    <p>
+                     
+                      I'm passionate about building interactive, user friendly applications that solves real world problems.<br />
+                      
+                    </p> 
+                    <a href="https://docs.google.com/document/d/1nSGhDDV7XQZ-tTQVuJVetB8MGkQF0qjWMaA4FpYD_5Y/edit?usp=sharing">
+                    <button>View My Resume</button>
+                  </a>
+                  </div>
+                  </div>
+                  </div>
+                <div className="row">
+                <div className="col-md-8">
+                  <h3 id="title-skills">My Career so far</h3>
+                  <div id="text-skills">
+                  <p>
+                      Let me walk you through my tech journey :) <br /><br />
+                      I'm currently improving my tech skills and searching for opportunities to join the industry. 
+                      My interest in tech began in 2021 when I taught myself to code through videos. 
+                      I took some online courses and in 2023, I graduated from a full-time, 500-hour coding bootcamp. I have a background and a degree in HR with 3+ years of experience, 
+                      providing strong data analytics skills. During this time, I've worked with KPIs, metrics, and related tasks. 
+                      I love using technology to benefit people, which led me to pursue a career in software engineering.
+                      <br />
+                      I hope you enjoy my portfolio and projects! 
+                  </p> 
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                <div className="row">
+                  <h3 id="title-tech">Technologies and Skills</h3>
+                </div>
+                </div>
+                  <div id="text-tech">
+                  <p>  
+                  <span>Python</span>
+                  <span>Javascript</span>
+                  <span>SQL</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>React.js</span>
+                  <span>Ajax</span>
+                  <span>JSON</span>
+                  <span>Flask</span>
+                  <span>Jinja</span> <br /> 
+                  <span>SQLAlchemy</span>
+                  <span>APIs</span>
+                  <span>Git</span>
+                  <span>GitHub</span>
+                  <span>Data Modeling</span>
+                  <span>Ubuntu</span>
+                  <span>Command Line</span>
+                  <span>AWS</span> <br />
+                  <span>VS Code</span>
+                  <span>Algorithms</span>
+                  <span>Analytical Skills</span>
+                  <span>Data analysis</span>
+                  <span>HRIS</span>
+                  <span>KPIs</span>
+                 </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-</div>
-    );
-  }
-
+      </div>
+    </div>
+  );
+}
 
 function Projects(props) {
     return (
@@ -34,7 +91,7 @@ function Projects(props) {
         <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
           <img
             className="project-card-img-top"
-            src="https://static1.squarespace.com/static/58594172893fc07d5b88dd15/t/5a94276e8165f549b5f403f3/1519658876756/unhealthy-snacks.jpg"
+            src="static/img/happy-snacky.JPG"
             alt="Happy Snacky"
             style={{ height: "180px", width: "100%", display: "block" }}
           />
@@ -45,7 +102,7 @@ function Projects(props) {
             </p>
             <a
               href="https://github.com/Ismaiana/Happy-Snacky-Project"
-              className="btn btn-primary"
+              className="btn btn-primary" id="check-out"
             >
               Check it out
             </a>
@@ -54,16 +111,16 @@ function Projects(props) {
         <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
           <img
             className="project-card-img-top"
-            src="..."
+            src="static/img/react-website.JPG"
             alt="Card image cap"
             style={{ height: "180px", width: "100%", display: "block" }}
           />
           <div className="card-body">
             <h5 className="card-title">Portfolio Website</h5>
-            <p className="card-text">
+            <p className="card-text" style={{marginBottom: "63px"}}>
               My Portfolio website built with React.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="https://github.com/Ismaiana/React-portifolio" className="btn btn-primary" id="check-out">
               Check it out
             </a>
           </div>
@@ -72,48 +129,55 @@ function Projects(props) {
 );
 }
 
-function Resume(props) {
-    return (
-      <div id="resume" style={{ height: "100vh" }}>
-      
-      </div>
-    );
-  }
+function Contact(props) {
+  const handleClick = (event) => {
+    event.preventDefault();
+    window.location.href = "mailto:ismaiana_@hotmail.com";
+  };
 
+  return (
+    <div>
+      <a href="/" onClick={handleClick}>
+        Contact Me
+      </a>
+    </div>
+  );
+}
 
 function Navbar(props) {
-    const { brand } = props;
-    return (
-        <nav>
-    <ReactRouterDOM.Link to="/" className="havbar-brand d-flex justify-content-center">
-        
-        <span>{brand}</span>
-      </ReactRouterDOM.Link>
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    window.location.href = "mailto:ismaiana_@hotmail.com";
+  };
+
+  return (
+    <nav>
+
+      <ReactRouterDOM.Link to="/" className="navbar-brand d-flex justify-content-center">
+     
+    
 
       <section className="d-flex justify-content-center">
-      <ReactRouterDOM.NavLink
-        to="/"
-        activeClassName="navlink-active"
-        className="nav-link nav-item"
+        <ReactRouterDOM.NavLink
+          to="/"
+          activeClassName="navlink-active"
+          className="nav-link nav-item"
         >
-        About me
+          About me
         </ReactRouterDOM.NavLink>
         <ReactRouterDOM.NavLink
-        to="/projects"
-        activeClassName="navlink-active"
-        className="nav-link nav-item"
+          to="/projects"
+          activeClassName="navlink-active"
+          className="nav-link nav-item"
         >
-        Projects
+          Projects
         </ReactRouterDOM.NavLink>
-
-        <ReactRouterDOM.NavLink
-        to="/resume"
-        activeClassName="navlink-active"
-        className="nav-link nav-item"
-        >
-        Resume
-        </ReactRouterDOM.NavLink>
-        </section>
-      </nav>
-    );
+        <a href="/" onClick={handleClick} className="nav-link nav-item">
+          Contact Me
+        </a>
+      </section>
+      </ReactRouterDOM.Link>
+    </nav>
+  );
 }
