@@ -1,15 +1,15 @@
 function Homepage(props) {
   return (
     <div className="row">
-      <div className="col">
-        <div className="card" id="card-home">
-          <div className="row">
-            <div className="col-md-4">
-              <img src="static/img/profile-pic.jpeg" alt="isma" width="600px" height="920px" id="profile-pic"/>
-            </div>
+    <div className="col" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", minHeight: "100vh", marginBottom: "340px"}}>
+      <div className="card" id="card-home">
+        <div className="row">
+          <div className="col-md-4">
+            <img src="static/img/profile-pic.jpeg" alt="isma" className="img-fluid" id="profile-pic"/>
+          </div>
             <div className="col-md-8">
               <div className="card-body" id="card-home-body">
-                <h1 className="my-name"><p id="im">I'm</p> Ismaiana Lima</h1>
+                <h1 className="my-name" ><p id="im">I'm</p> Ismaiana Lima</h1>
                 <h3 className="swe">Software Engineer</h3>
                 <div className="row">
                 <div className="col-md-7">
@@ -25,6 +25,7 @@ function Homepage(props) {
                   </div>
                   </div>
                   </div>
+                
                 <div className="row">
                 <div className="col-md-8">
                   <h3 id="title-skills">My Career so far</h3>
@@ -33,12 +34,16 @@ function Homepage(props) {
                       Let me walk you through my tech journey :) <br /><br />
                       I'm currently improving my tech skills and searching for opportunities to join the industry. 
                       My interest in tech began in 2021 when I taught myself to code through videos. 
-                      I took some online courses and in 2023, I graduated from a full-time, 500-hour coding bootcamp. I have a background and a degree in HR with 3+ years of experience, 
+                      I took some online courses, and in 2023 I graduated from a full-time, 500-hour coding bootcamp. I have a background and a degree in HR with 3+ years of experience, 
                       providing strong data analytics skills. During this time, I've worked with KPIs, metrics, and related tasks. 
                       I love using technology to benefit people, which led me to pursue a career in software engineering.
                       <br />
                       I hope you enjoy my portfolio and projects! 
                   </p> 
+
+                  <a href="/projects">
+                    <button>View My Projects</button>
+                  </a>
                     </div>
                   </div>
                 </div>
@@ -86,9 +91,10 @@ function Homepage(props) {
 }
 
 function Projects(props) {
-    return (
-        <div style={{ display: "flex", justifyContent: "center" }}>
-        <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
+  return (
+    <div id="projects-div" style={{justifyContent: "center", alignItems: "center", minHeight: "100vh"}}>
+      <div className="d-flex flex-wrap justify-content-center">
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
           <img
             className="project-card-img-top"
             src="static/img/happy-snacky.JPG"
@@ -102,13 +108,13 @@ function Projects(props) {
             </p>
             <a
               href="https://github.com/Ismaiana/Happy-Snacky-Project"
-              className="btn btn-primary" id="check-out"
+              className="btn btn-primary" id="check-out" style={{marginTop:"45px"}}
             >
               Check it out
             </a>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem", margin: "0 10px" }}>
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
           <img
             className="project-card-img-top"
             src="static/img/react-website.JPG"
@@ -120,13 +126,35 @@ function Projects(props) {
             <p className="card-text" style={{marginBottom: "63px"}}>
               My Portfolio website built with React.
             </p>
-            <a href="https://github.com/Ismaiana/React-portifolio" className="btn btn-primary" id="check-out">
+            <a href="https://github.com/Ismaiana/React-portifolio" className="btn btn-primary" id="check-out" style={{marginTop:"45px"}}>
               Check it out
             </a>
           </div>
         </div>
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
+          <img
+            className="project-card-img-top"
+            src="static/img/gabi-nutri.JPG"
+            alt="Card image cap"
+            style={{ height: "180px", width: "100%", display: "block" }}
+          />
+          <div className="card-body">
+          <h5 className="card-title">Gabi Nutrition</h5>
+            <p className="card-text" style={{marginBottom: "63px"}}>
+            Gabi Nutrition's website allows users to review her services and contact her for more information about her services.
+            </p>
+            <a href="https://github.com/Ismaiana/Gabi-nutrition" className="btn btn-primary" id="check-out">
+              Check it out
+            </a>
+          </div>
+          </div>
+        </div>
+        <br />
+        <br />
       </div>
-);
+
+  
+  );
 }
 
 function Contact(props) {
