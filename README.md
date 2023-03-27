@@ -40,7 +40,7 @@ Contact me:
 
 ## <a name="license"></a>License
 
-Happy Snacky License (Version 1.0)
+My Portfolio License (Version 1.0)
 
 Copyright (c) 2023 Ismaiana Lima
 
