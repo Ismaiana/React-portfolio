@@ -236,6 +236,7 @@ nav {
     margin-bottom: 100px;
     align-items: flex-start;
     padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 
     }
     

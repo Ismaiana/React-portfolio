@@ -1,5 +1,5 @@
 
-from flask import Flask, render_template, flash, jsonify
+from flask import Flask, render_template
 import os
 from jinja2 import StrictUndefined
 
@@ -19,6 +19,16 @@ def homepage():
 
     return render_template("index.html")
 
+@app.route('/<path>')
+def route(path):
+
+    return render_template('index.html')
+
+
+@app.route('/<path>/<code>')
+def nested_route(path, code):
+
+    return render_template('index.html')
 
 
 

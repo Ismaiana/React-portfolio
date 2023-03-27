@@ -41,9 +41,9 @@ function Homepage(props) {
                       I hope you enjoy my portfolio and projects! 
                   </p> 
 
-                  <a href="/projects">
-                    <button>View My Projects</button>
-                  </a>
+                  <ReactRouterDOM.Link to="/projects">
+                        <button>View My Projects</button>
+                      </ReactRouterDOM.Link>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ function Projects(props) {
             <p className="card-text" style={{marginBottom: "63px"}}>
               My Portfolio website built with React.
             </p>
-            <a href="https://github.com/Ismaiana/React-portifolio" className="btn btn-primary" id="check-out" style={{marginTop:"45px"}}>
+            <a href="https://github.com/Ismaiana/React-portfolio" className="btn btn-primary" id="check-out" style={{marginTop:"45px"}}>
               Check it out
             </a>
           </div>  
