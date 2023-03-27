@@ -60,4 +60,4 @@ By using the Software, you agree to be bound by the terms of this license. If yo
 ## <a name="aboutme"></a>About Me
 
 Ismaiana is a software engineer originally from Brazil, and currently living in AZ. This is her first full stack project. 
-Visit her on [LinkedIn](http://www.linkedin.com/in/ismaiana-lima), and portfolio [Portfolio](http://www.ismaiana.com).
+Visit her on [LinkedIn](http://www.linkedin.com/in/ismaiana-lima) and visit her [Portfolio](http://www.ismaiana.com).
