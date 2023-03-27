@@ -194,7 +194,7 @@ function Navbar(props) {
           activeClassName="navlink-active"
           className="nav-link nav-item"
         >
-          About me
+          About Me
         </ReactRouterDOM.NavLink>
         <ReactRouterDOM.NavLink
           to="/projects"
