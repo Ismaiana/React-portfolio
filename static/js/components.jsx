@@ -32,7 +32,7 @@ function Homepage(props) {
                   <div id="text-skills">
                   <p>
                       Let me walk you through my tech journey :) <br /><br />
-                      I'm currently improving my tech skills and searching for opportunities to join the industry. 
+                      I'm currently improving my tech skills and working on projects daily. 
                       My interest in tech began in 2021 when I taught myself to code through videos. 
                       I took some online courses, and in 2023 I graduated from a full-time, 500-hour coding bootcamp. I have a background and a degree in HR with 3+ years of experience, 
                       providing strong data analytics skills. During this time, I've worked with KPIs, metrics, and related tasks. 
@@ -94,7 +94,7 @@ function Projects(props) {
   return (
     <div id="projects-div" style={{justifyContent: "center", alignItems: "center", minHeight: "100vh"}}>
       <div className="d-flex flex-wrap justify-content-center">
-        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px", marginBottom: "20px"}}>
           <img
             className="project-card-img-top"
             src="static/img/happy-snacky.JPG"
@@ -114,7 +114,8 @@ function Projects(props) {
             </a>
           </div>
         </div>
-        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
+     
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px", marginBottom: "20px" }}>
           <img
             className="project-card-img-top"
             src="static/img/react-website.JPG"
@@ -129,9 +130,10 @@ function Projects(props) {
             <a href="https://github.com/Ismaiana/React-portifolio" className="btn btn-primary" id="check-out" style={{marginTop:"45px"}}>
               Check it out
             </a>
-          </div>
+          </div>  
         </div>
-        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px" }}>
+     
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px", marginBottom: "20px"}}>
           <img
             className="project-card-img-top"
             src="static/img/gabi-nutri.JPG"
@@ -147,7 +149,7 @@ function Projects(props) {
               Check it out
             </a>
           </div>
-          </div>
+        </div>
         </div>
         <br />
         <br />
