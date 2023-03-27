@@ -1,5 +1,6 @@
 # My Portfolio 🌈
 
+My portfolio was built to present my journey in tech, as well as my projects. This application is built using React, HTML, CSS, and Bootstrap.
 
 ## Contents
 * [Tech Stack](#technologies)
