@@ -19,22 +19,12 @@ def homepage():
 
     return render_template("index.html")
 
-@app.route('/<path>')
-def route(path):
-
-    return render_template('index.html')
-
-
-@app.route('/<path>/<code>')
-def nested_route(path, code):
-
-    return render_template('index.html')
 
 
 
 if __name__ == "__main__":
 
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0")
 
 
 
