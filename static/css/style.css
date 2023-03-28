@@ -279,7 +279,6 @@ max-height: 2300px;
 margin: 0 auto;
 justify-content: center;
 align-items: center;
-position: relative;
 margin-left: 200px;
 margin-right: 200px;
 margin-bottom: 400px;
@@ -490,7 +489,7 @@ a {
     width: auto;
     display: flex;
     align-items: center;
-    position: relative;
+   
 }
 
 #profile-pic {
@@ -546,7 +545,7 @@ margin-bottom: 80px;
         width: auto;
         display: flex;
         align-items: center;
-        position: relative;
+       
     }
     
     #profile-pic {
