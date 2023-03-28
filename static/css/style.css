@@ -281,7 +281,7 @@ justify-content: center;
 align-items: center;
 margin-left: 200px;
 margin-right: 200px;
-position:static;
+position:sticky;
 overflow: auto;
 
 
@@ -489,7 +489,7 @@ a {
     height: 2000px;
     width: auto;
     align-items: center;
-    position:static;
+    position:sticky;
     overflow: auto;
   
    
