@@ -548,7 +548,7 @@ margin-bottom: 80px;
         width: auto;
         display: flex;
         align-items: center;
-        position:relative;
+        position:inherit;
        
        
     }
