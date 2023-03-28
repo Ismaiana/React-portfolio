@@ -233,8 +233,6 @@ nav {
 nav {
 
     margin: 10px;
-    margin-bottom: -4000px;
-    align-items: flex-start;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   
@@ -464,7 +462,6 @@ nav {
     
     justify-content: center;
     align-items: center;
-    margin-bottom: -3000px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
  
