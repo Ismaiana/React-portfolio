@@ -264,6 +264,11 @@ color: rgb(144, 212, 233);
     background-color: rgba(255, 255, 255, 0.336); 
 
 }
+.card{
+
+    max-width: auto;
+    max-height: auto;
+}
 
 #card-home-body { 
     
