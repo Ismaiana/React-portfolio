@@ -265,7 +265,6 @@ color: rgb(144, 212, 233);
 
 }
 
-
 #card-home-body { 
     
     background-color: rgba(255, 255, 255, 0.336); 
@@ -549,7 +548,7 @@ margin-bottom: 80px;
         width: auto;
         display: flex;
         align-items: center;
-        position:inherit;
+        position:relative;
        
        
     }
