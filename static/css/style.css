@@ -3,7 +3,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 30px;
-    margin-bottom: 500px;
+    margin-bottom: 30px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
  }
@@ -49,9 +49,9 @@ nav {
      margin: 0 auto;
      display: flex;
      align-items: center;
+     overflow: hidden;
      position: absolute;
      width: 100%;
-     margin-bottom: 300px;
   
  
  }
@@ -233,11 +233,11 @@ nav {
 nav {
 
     margin: 10px;
-    margin-bottom: auto;
+    margin-bottom: 100px;
     align-items: flex-start;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  
+
     }
     
 
@@ -279,11 +279,10 @@ max-height: 2300px;
 margin: 0 auto;
 justify-content: center;
 align-items: center;
+position: absolute;
 margin-left: 200px;
 margin-right: 200px;
-position:relative;
-
-
+margin-bottom: 400px;
 
 }
 
@@ -461,13 +460,13 @@ font-size: 12px;
 
 
 nav {
-    
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin: 30px;
+    margin-bottom: 1200px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
- 
 
     }
 
@@ -483,16 +482,15 @@ a {
 
 
 #card-home {
-
+    margin-top: 150px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 800px;
     height: 2000px;
     width: auto;
+    display: flex;
     align-items: center;
-    position:static;
-    
-  
-   
+    position: absolute;
 }
 
 #profile-pic {
@@ -523,10 +521,10 @@ margin-bottom: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 250px;
+        margin: 30px;
+        margin-bottom: 1000px;
         padding: 10px 20px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        position:initial;
     
         }
     
@@ -543,23 +541,20 @@ margin-bottom: 80px;
     #card-home {
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: auto;
+        margin-bottom: 800px;
         height: 2000px;
         width: auto;
         display: flex;
         align-items: center;
-        position:relative;
-       
-       
+        overflow: auto;;
+        position: absolute;
     }
-
-   
     
     #profile-pic {
     
         margin-top: 200px;
-        height: 500px;
-        width: 380px;
+        height: 600px;
+        width: 450px;
         margin-bottom: -300px;
     }
     
