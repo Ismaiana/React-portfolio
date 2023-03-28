@@ -3,7 +3,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 350px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
  }
@@ -447,10 +447,6 @@ font-size: 12px;
 
 }
 
-#text-tech br + span {
-
-    margin-top: 10px;
-}
 
 #check-out:hover {
 
