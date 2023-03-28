@@ -42,7 +42,7 @@ Cards with my projects.
 
 Contact me:
 
-It;s possible to contact me using the navbar clicking in contact me or clicking in any icone in the bottom of the page.
+It's possible to contact me using the navbar clicking in contact me or clicking in any icone in the bottom of the page.
 
 
 ![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/contact-me.JPG "Contact me")
