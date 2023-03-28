@@ -282,7 +282,7 @@ align-items: center;
 margin-left: 200px;
 margin-right: 200px;
 margin-bottom: 400px;
-position: none;
+
 
 }
 
@@ -490,7 +490,7 @@ a {
     width: auto;
     display: flex;
     align-items: center;
-    position: none;
+  
    
 }
 
@@ -547,7 +547,7 @@ margin-bottom: 80px;
         width: auto;
         display: flex;
         align-items: center;
-        position: none;
+       
        
     }
     
