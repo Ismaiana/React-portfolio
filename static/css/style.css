@@ -526,7 +526,7 @@ margin-bottom: 80px;
         margin-bottom: 250px;
         padding: 10px 20px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        position:absolute;
+        position:initial;
     
         }
     
