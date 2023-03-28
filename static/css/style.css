@@ -282,6 +282,7 @@ align-items: center;
 margin-left: 200px;
 margin-right: 200px;
 position:relative;
+overflow: auto;
 
 
 }
@@ -490,6 +491,7 @@ a {
     display: flex;
     align-items: center;
     position:relative;
+    overflow: auto;
   
    
 }
