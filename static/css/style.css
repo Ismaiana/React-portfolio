@@ -233,6 +233,8 @@ nav {
 nav {
 
     margin: 10px;
+    margin-bottom: 200px;
+    align-items: flex-start;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   
@@ -269,6 +271,17 @@ color: rgb(144, 212, 233);
     margin-bottom: 350px;
 
 }
+
+#card-home {
+
+max-width: auto;
+max-height: auto;
+justify-content: center;
+align-items: center;
+margin-left: 200px;
+margin-right: 200px;
+position: absolute;
+display: flex;
 
 
 
@@ -451,6 +464,7 @@ nav {
     
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
  
@@ -468,6 +482,18 @@ a {
 }
 
 
+#card-home {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    height:auto;
+    width: auto;
+    align-items: center;
+    position: absolute;
+   
+  
+   
+}
 
 #profile-pic {
 
@@ -489,4 +515,5 @@ margin-bottom: 80px;
 
 }
 }
+
 
