@@ -275,13 +275,11 @@ color: rgb(144, 212, 233);
 #card-home {
 
 max-width: auto;
-max-height: auto;
+max-height: 2300px;
 justify-content: center;
 align-items: center;
 margin-left: 200px;
 margin-right: 200px;
-position: absolute;
-display: flex;
 
 
 
@@ -486,11 +484,10 @@ a {
 
     margin-left: 20px;
     margin-right: 20px;
-    height:auto;
+    height: 2000px;
     width: auto;
     align-items: center;
-    position: absolute;
-   
+    overflow: auto;
   
    
 }
@@ -517,3 +514,62 @@ margin-bottom: 80px;
 }
 
 
+@media (max-width: 1024px) {
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        margin-bottom: 1000px;
+        padding: 10px 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        position:relative;
+    
+        }
+    
+        a {
+        font-size: 21px;
+        }
+    
+    #card-home-body {
+    
+        margin-top: 300px;
+    }
+    
+    
+    #card-home {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 800px;
+        height: 2000px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        position:relative;
+       
+       
+    }
+    
+    #profile-pic {
+    
+        margin-top: 200px;
+        height: 500px;
+        width: 380px;
+        margin-bottom: -300px;
+    }
+    
+    card {
+    
+    margin-bottom: 80px;
+    }
+    
+    #projects-div {
+    
+      margin-top: -900px;
+      padding-top: 0;
+    
+    
+    }
+
+}
