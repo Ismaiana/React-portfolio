@@ -35,7 +35,7 @@ Projects Page:
 
 Contact me:
 
-![alt text]("Contact me")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/connect "Contact me")
 
 
 
