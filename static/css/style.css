@@ -237,6 +237,7 @@ nav {
     align-items: flex-start;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position:relative;
 
     }
     
@@ -282,6 +283,7 @@ align-items: center;
 margin-left: 200px;
 margin-right: 200px;
 margin-bottom: 400px;
+position:relative;
 
 
 }
@@ -467,6 +469,7 @@ nav {
     margin-bottom: 40px;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position:relative;
 
     }
 
@@ -490,6 +493,7 @@ a {
     width: auto;
     display: flex;
     align-items: center;
+    position:relative;
   
    
 }
@@ -526,6 +530,7 @@ margin-bottom: 80px;
         margin-bottom: 1000px;
         padding: 10px 20px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        position:relative;
     
         }
     
@@ -547,6 +552,7 @@ margin-bottom: 80px;
         width: auto;
         display: flex;
         align-items: center;
+        position:relative;
        
        
     }
