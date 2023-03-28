@@ -31,7 +31,7 @@ About Me:
 
 Projects Page: 
 
-![alt text]("Projects")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/projects.JPG "Projects")
 
 Contact me:
 
