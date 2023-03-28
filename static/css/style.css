@@ -470,10 +470,21 @@ nav {
 
     }
 
-a {
-    
-    font-size: 20px;
-}
+
+    .nav-links {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .nav-links a {
+        display: block;
+        margin: 10px;
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+
+      }
+
 
 #card-home-body {
 
