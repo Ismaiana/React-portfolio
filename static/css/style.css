@@ -275,7 +275,7 @@ color: rgb(144, 212, 233);
 #card-home {
 
 max-width: auto;
-max-height: 2300px;
+max-height: auto;
 justify-content: center;
 align-items: center;
 margin-left: 200px;
@@ -484,7 +484,7 @@ a {
 
     margin-left: 20px;
     margin-right: 20px;
-    height: 2000px;
+    height:auto;
     width: auto;
     align-items: center;
    
