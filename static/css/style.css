@@ -539,9 +539,10 @@ margin-bottom: 80px;
     
     
     #card-home {
+        margin-top: 300px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: 800px;
+        margin-bottom: 900px;
         height: auto;
         width: auto;
         display: flex;
