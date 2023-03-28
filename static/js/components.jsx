@@ -203,9 +203,10 @@ function Navbar(props) {
         >
           Projects
         </ReactRouterDOM.NavLink>
-        <a href="/" onClick={handleClick} className="nav-link nav-item">
+        <ReactRouterDOM.NavLink
+        to= "/" onClick={handleClick} className="nav-link nav-item">
           Contact Me
-        </a>
+          </ReactRouterDOM.NavLink>
       </section>
       </ReactRouterDOM.Link>
     </nav>
