@@ -282,7 +282,7 @@ align-items: center;
 margin-left: 200px;
 margin-right: 200px;
 position:relative;
-overflow: auto;
+
 
 
 }
@@ -490,7 +490,7 @@ a {
     width: auto;
     align-items: center;
     position:static;
-    overflow: auto;
+    
   
    
 }
