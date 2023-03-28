@@ -526,7 +526,7 @@ margin-bottom: 80px;
         margin-bottom: 250px;
         padding: 10px 20px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        position:relative;
+        position:absolute;
     
         }
     
@@ -553,18 +553,7 @@ margin-bottom: 80px;
        
     }
 
-    .card {
-         
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: auto;
-        margin-top: 1600px;
-        width: auto;
-        height: auto;
-        align-items: center;
-        position:abosulte;
-
-    }
+   
     
     #profile-pic {
     
