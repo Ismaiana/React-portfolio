@@ -488,7 +488,6 @@ a {
     margin-right: 20px;
     height: 2000px;
     width: auto;
-    display: flex;
     align-items: center;
     position:static;
     overflow: auto;
