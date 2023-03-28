@@ -23,7 +23,7 @@ Frontend: React.js, HTML5, CSS, Bootstrap.
 
 
 About Me: 
-![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/about-me.JPG"About me")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/about-me.JPG "About me")
 
 
 
