@@ -23,7 +23,7 @@ Frontend: React.js, HTML5, CSS, Bootstrap.
 
 
 About Me: 
-![alt text]("About me")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/about-me.JPG "About me")
 
 
 
@@ -31,11 +31,11 @@ About Me:
 
 Projects Page: 
 
-![alt text]("Projects")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/projects.JPG "Projects")
 
 Contact me:
 
-![alt text]("Contact me")
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/connect.JPG "Contact me")
 
 
 
