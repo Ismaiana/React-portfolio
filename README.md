@@ -23,17 +23,32 @@ Frontend: React.js, HTML5, CSS, Bootstrap.
 
 
 About Me: 
-![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/about-me.JPG "About me")
 
+About me page with introduction and link for my resume and projects.
+
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/about-me.JPG "About me")
 
 
 
 
 Projects Page: 
 
+Cards with my projects.
+
 ![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/projects.JPG "Projects")
 
+
+
+
 Contact me:
+
+It's possible to contact me using the navbar clicking in contact me or clicking in any icone in the bottom of the page.
+
+
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/contact-me.JPG "Contact me")
+
+![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/email.JPG "Contact me")
+
 
 ![alt text](https://github.com/Ismaiana/React-portfolio/blob/main/static/img/connect.JPG "Contact me")
 
