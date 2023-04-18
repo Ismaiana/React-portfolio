@@ -1,6 +1,6 @@
 # My Portfolio 🌈
 
-My portfolio was built to present my journey in tech, as well as my projects. This application is built using React, HTML, CSS, and Bootstrap and deployed with AWS services. You can visualize this application in ismaiana.com 🌈
+My portfolio was built to present my journey in tech, as well as my projects. This application is built using React, HTML, CSS, and Bootstrap and deployed with AWS services. You can visualize this application in http://ismaiana.com 🌈
 
 ## Contents
 * [Tech Stack](#technologies)
