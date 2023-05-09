@@ -56,23 +56,25 @@ function Homepage(props) {
                   <p>  
                   <span>Python</span>
                   <span>Javascript</span>
+                  <span>PHP</span>
                   <span>SQL</span>
                   <span>HTML</span>
                   <span>CSS</span>
                   <span>Bootstrap</span>
                   <span>React.js</span>
-                  <span>Ajax</span>
-                  <span>JSON</span>
                   <span>Flask</span>
-                  <span>Jinja</span> <br /> 
-                  <span>SQLAlchemy</span>
+                  <span>Jinja</span>
+                  <span>Laravel</span> 
+                  <span>Ajax</span>
+                  <span>JSON</span> 
+                  <span>SQLAlchemy</span> 
                   <span>APIs</span>
                   <span>Git</span>
                   <span>GitHub</span>
                   <span>Data Modeling</span>
                   <span>Ubuntu</span>
                   <span>Command Line</span>
-                  <span>AWS</span> <br />
+                  <span>AWS</span> 
                   <span>VS Code</span>
                   <span>Algorithms</span>
                   <span>Analytical Skills</span>
