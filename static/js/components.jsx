@@ -67,6 +67,9 @@ function Homepage(props) {
                   <span>Laravel</span> 
                   <span>Ajax</span>
                   <span>JSON</span> 
+                  <span>Chart.js</span> 
+                  <span>PostgreSQL</span>
+                  <span>MySQL</span>
                   <span>SQLAlchemy</span> 
                   <span>APIs</span>
                   <span>Git</span>
