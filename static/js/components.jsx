@@ -16,7 +16,7 @@ function Homepage(props) {
                   <div id="text-about">
                     <p>
                      
-                    I just love coding and learning new things! <br />
+                    I love coding and learning new things! <br />
                       
                     </p> 
                     <a href="https://docs.google.com/document/d/1nSGhDDV7XQZ-tTQVuJVetB8MGkQF0qjWMaA4FpYD_5Y/edit?usp=sharing">
