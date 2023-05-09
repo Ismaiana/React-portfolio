@@ -1,6 +1,6 @@
 # My Portfolio 🌈
 
-My portfolio was built to present my journey in tech, as well as my projects. This application is built using React, HTML, CSS, and Bootstrap.
+My portfolio was built to present my journey in tech, as well as my projects. This application is built using React.js, Python, HTML, CSS, and Bootstrap and deployed with AWS. You can visualize this application at http://ismaiana.com 🌈
 
 ## Contents
 * [Tech Stack](#technologies)
@@ -75,5 +75,5 @@ By using the Software, you agree to be bound by the terms of this license. If yo
 
 ## <a name="aboutme"></a>About Me
 
-Ismaiana is a software engineer originally from Brazil, and currently living in AZ. This is her first full stack project. 
+Ismaiana is a software engineer originally from Brazil, and currently living in AZ.
 Visit her [LinkedIn](http://www.linkedin.com/in/ismaiana-lima) and [Portfolio](http://www.ismaiana.com).
