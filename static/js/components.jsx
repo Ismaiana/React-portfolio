@@ -10,15 +10,15 @@ function Homepage(props) {
             <div className="col-md-8">
               <div className="card-body" id="card-home-body">
                 <h1 className="my-name" ><p id="im">I'm</p> Ismaiana Lima</h1>
-                <h3 className="swe">Software Engineer</h3>
+                <h3 className="swe">Software Engineer</h3> <br />
                 <div className="row">
                 <div className="col-md-7">
                   <div id="text-about">
-                    <p>
+                  
                      
-                    I love coding and learning new things! <br />
+                    
                       
-                    </p> 
+                    
                     <a href="https://docs.google.com/document/d/1nSGhDDV7XQZ-tTQVuJVetB8MGkQF0qjWMaA4FpYD_5Y/edit?usp=sharing">
                     <button>View My Resume</button>
                   </a>
