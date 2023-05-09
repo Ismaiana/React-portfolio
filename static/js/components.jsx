@@ -16,7 +16,7 @@ function Homepage(props) {
                   <div id="text-about">
                     <p>
                      
-                      I'm passionate about building interactive, user friendly applications that solves real world problems.<br />
+                    I just love coding and learning new things! <br />
                       
                     </p> 
                     <a href="https://docs.google.com/document/d/1nSGhDDV7XQZ-tTQVuJVetB8MGkQF0qjWMaA4FpYD_5Y/edit?usp=sharing">
@@ -32,7 +32,7 @@ function Homepage(props) {
                   <div id="text-skills">
                   <p>
                       Let me walk you through my tech journey :) <br /><br />
-                      I'm currently improving my tech skills and working on projects daily. 
+                      I'm currently improving my skills and working on projects daily. 
                       My interest in tech began in 2021 when I taught myself to code through videos. 
                       I took some online courses, and in 2023 I graduated from a full-time, 500-hour coding bootcamp. I have a background and a degree in HR with 3+ years of experience, 
                       providing strong data analytics skills. During this time, I've worked with KPIs, metrics, and related tasks. 
@@ -145,7 +145,7 @@ function Projects(props) {
           <div className="card-body">
           <h5 className="card-title">Gabi Nutrition</h5>
             <p className="card-text" style={{marginBottom: "63px"}}>
-            Gabi Nutrition's website allows users to review her services and contact her for more information about her services.
+            Gabi Nutrition's website allows users to review her services, view clients' results and pricing.
             </p>
             <a href="https://github.com/Ismaiana/Gabi-nutrition" className="btn btn-primary" id="check-out">
               Check it out
