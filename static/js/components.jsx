@@ -14,11 +14,6 @@ function Homepage(props) {
                 <div className="row">
                 <div className="col-md-7">
                   <div id="text-about">
-                  
-                     
-                    
-                      
-                    
                     <a href="https://docs.google.com/document/d/1nSGhDDV7XQZ-tTQVuJVetB8MGkQF0qjWMaA4FpYD_5Y/edit?usp=sharing">
                     <button>View My Resume</button>
                   </a>
@@ -147,8 +142,9 @@ function Projects(props) {
           />
           <div className="card-body">
           <h5 className="card-title">Gabi Nutrition</h5>
-            <p className="card-text" style={{marginBottom: "63px"}}>
-            Gabi Nutrition's website allows users to review her services, view clients' results and pricing.
+            <p className="card-text" style={{marginBottom: "61px"}}>
+            Gabi Nutrition's website allows users to review her services, view clients' results and pricing. <br />
+            <a href="http://www.gbsilva.com" style={{color:"blue", fontSize: "18px"}}>www.gbsilva.com</a>
             </p>
             <a href="https://github.com/Ismaiana/Gabi-nutrition" className="btn btn-primary" id="check-out">
               Check it out
