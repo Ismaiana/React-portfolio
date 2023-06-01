@@ -46,13 +46,15 @@ nav {
  #card-home {
  
      max-width: 2000px;
-     max-height:auto;
      margin: 0 auto;
      display: flex;
      align-items: center;
      overflow: hidden;
      position: absolute;
      width: 100%;
+     height: auto;
+     max-height: auto;
+     margin-bottom: 300px;
   
  
  }
@@ -481,7 +483,7 @@ a {
 
 
 #card-home {
-    margin-top: 150px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 800px;
@@ -570,3 +572,22 @@ margin-bottom: 80px;
     }
 
 }
+
+
+
+@media (max-width: 400px) {
+    .row {
+      flex-wrap: wrap;
+    }
+
+    #card-home {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 800px;
+        height: 1900px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+  }

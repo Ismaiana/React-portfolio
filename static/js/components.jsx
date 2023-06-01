@@ -1,14 +1,14 @@
 function Homepage(props) {
   return (
-    <div className="row">
-    <div className="col" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", minHeight: "100vh", marginBottom: "340px"}}>
+    <div>
+    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", minHeight: "130vh", marginBottom: "300px"}}>
       <div className="card" id="card-home">
         <div className="row">
           <div className="col-md-4">
             <img src="static/img/profile-pic.jpeg" alt="isma" className="img-fluid" id="profile-pic"/>
           </div>
-            <div className="col-md-8">
-              <div className="card-body" id="card-home-body">
+          <div className="col-md-8">
+            <div className="card-body" id="card-home-body">
                 <h1 className="my-name" ><p id="im">I'm</p> Ismaiana Lima</h1>
                 <h3 className="swe">Software Engineer</h3> <br />
                 <div className="row">
@@ -132,6 +132,7 @@ function Projects(props) {
             </a>
           </div>  
         </div>
+
      
         <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px", marginBottom: "20px"}}>
           <img
@@ -150,6 +151,25 @@ function Projects(props) {
               Check it out
             </a>
           </div>
+        </div>
+
+        <div className="card" id="projects" style={{ width: "18rem", margin: "0 10px", marginBottom: "20px" }}>
+          <img
+            className="project-card-img-top"
+            src="static/img/website-dvauto.JPG"
+            alt="Card image cap"
+            style={{ height: "180px", width: "100%", display: "block" }}
+          />
+          <div className="card-body">
+            <h5 className="card-title">DvAuto Miami</h5>
+            <p className="card-text" style={{marginBottom: "63px"}}>
+              DvAuto Miami offers auto repair and maintenance services. <br />
+              <a href="https://dvautomiami.com" style={{color:"blue", fontSize: "18px"}}>dvautomiami.com</a>
+            </p>
+            <a href="https://dvautomiami.com" className="btn btn-primary" id="check-out" style={{marginTop:"20px"}}>
+              Check it out
+            </a>
+          </div>  
         </div>
         </div>
         <br />
